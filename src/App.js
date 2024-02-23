@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+// filename -App.js
+import React from "react";
+//import "./App.css";
+import Navbar from "./components/Navbar";
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route,
+} from "react-router-dom";
+import Home from "./pages/index";
+import About from './pages/about';
+import Contacts from './pages/contacts';
+import Events from "./pages/events";
+import Sponsors from "./pages/sponsors";
+import Teams from "./pages/team";
+import SignUp from "./pages/signup";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<Navbar />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/home" element={<Home />} />
+				<Route path="/about" element={<About />} />
+				<Route
+					path="/events"
+					element={<Events />}
+				/>
+				<Route
+					path="/sponsors"
+					element={<Sponsors />}
+				/>
+				<Route path="/team" element={<Teams />} />
+				<Route path="/contacts" element={<Contacts />} />
+				<Route
+					path="/sign-up"
+					element={<SignUp />}
+				/>
+			</Routes>
+		</Router>
+	);
 }
 
 export default App;

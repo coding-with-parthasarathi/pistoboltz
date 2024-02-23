@@ -1,0 +1,23 @@
+.home {
+    background-image: url('https://i.makeagif.com/media/9-18-2018/RySj_U.gif');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@500&display=swap');
+#title{
+  font-family: 'Kode Mono';
+}  
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+.Blazing {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	color: gold;
+	font-size: 150px;
+	font-family: 'Protest Revolution';
+	min-width: 50px;
+	outline: none;
+	vertical-align: middle;
+	text-shadow:        0 3px 5px red,        0 0 7px red,		0 0 5px orange;
+}
