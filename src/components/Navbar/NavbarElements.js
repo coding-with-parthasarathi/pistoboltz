@@ -1,9 +1,8 @@
 // components/Navbar/navbarElements.js
-
+//https://images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
-
 export const Nav = styled.nav`
 	background: black;
 	height: 85px;
@@ -22,11 +21,11 @@ export const NavLink = styled(Link)`
 	text-decoration: none;
 	width: max-content;
 	padding: 0 3rem;
-	height: 100%;
+	height: 25%;
+	@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400&display=swap');
+	font-family: 'Kode Mono';
+	font-size: 17.5px;
 	cursor: pointer;
-	&.active {
-		color: goldenrod;
-	}
     &:hover {
 		transition: all 0.2s ease-in-out;
 		color: yellow;
@@ -74,12 +73,15 @@ width: 100vw; */
 
 export const NavBtnLink = styled(Link)`
 	border-radius: 4px;
-	background: #808080;
+	background: white;
 	padding: 10px 22px;
 	color: #000000;
 	outline: none;
 	border: none;
 	width: max-content;
+	@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400&display=swap');
+	font-family: 'Kode Mono';
+	font-size: 17.5px;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 	text-decoration: none;
@@ -87,7 +89,6 @@ export const NavBtnLink = styled(Link)`
 	margin-left: 24px;
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		background: #fff;
-		color: #808080;
+		background: gold;
 	}
 `;

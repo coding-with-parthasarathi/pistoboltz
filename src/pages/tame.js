@@ -1,8 +1,8 @@
 import React from 'react';
 import './neon.css';
-const Contacts = () => {
+const Tame = () => {
 	return (
-		<div className='contacts'
+		<div className='tame'
 			style={{
 				display: "flex",
 				flexDirection: "column",
@@ -10,8 +10,8 @@ const Contacts = () => {
 				alignItems: "centre"
 			}}
 		>
-			<div class="logo"><b><span>Contact</span><span> Us</span></b></div>
+			<div class="logo"><b>The<span> Association</span> of<span> Mechanical Engineers</span></b></div>
 		</div>
 	);
 };
-export default Contacts;
+export default Tame;

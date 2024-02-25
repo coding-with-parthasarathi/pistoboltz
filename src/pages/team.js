@@ -1,5 +1,5 @@
 // pages/team.js
-
+import './neon.css';
 import React from "react";
 import './team.css';
 const Teams = () => {
@@ -7,12 +7,12 @@ const Teams = () => {
 		<div className="team"
 			style={{
 				display: "flex",
+				flexDirection: "column",
 				justifyContent: "centre",
-				alignItems: "centre",
-				height: "100vh",
+				alignItems: "centre"
 			}}
 		>
-			<h1>Welcome to GeeksforGeeks Team</h1>
+			<div class="logo"><b><span>Te</span><span>am</span></b></div>
 		</div>
 	);
 };

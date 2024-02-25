@@ -1,4 +1,5 @@
 import React from 'react';
+import './neon.css';
 const About = () => {
 	return (
 		<div className='about'
@@ -6,13 +7,10 @@ const About = () => {
 				display: "flex",
 				flexDirection: "column",
 				justifyContent: "centre",
-				alignItems: "centre",
+				alignItems: "centre"
 			}}
 		>
-			<h1>
-				GeeksforGeeks is a Computer Science portal
-				for geeks.
-			</h1>
+			<div class="logo"><b><span>About</span><span> Us</span></b></div>
 		</div>
 	);
 };

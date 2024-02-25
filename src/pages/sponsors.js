@@ -1,16 +1,16 @@
 import React from "react";
-
+import './neon.css';
 const Sponsors = () => {
 	return (
-		<div
+		<div className="sponsors"
 			style={{
 				display: "flex",
+				flexDirection: "column",
 				justifyContent: "centre",
-				alignItems: "centre",
-				height: "100vh",
+				alignItems: "centre"
 			}}
 		>
-			<h1>Sponsors</h1>
+			<div class="logo"><b><span>Spon</span><span>sors</span></b></div>
 		</div>
 	);
 };
