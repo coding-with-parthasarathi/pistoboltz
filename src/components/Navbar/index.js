@@ -2,7 +2,7 @@
 import './index.css';
 import React from "react";
 import pb from './logo.gif';
-import tame from './tame.jpg';
+import tame from './tame.png';
 import {
 	Nav,
 	NavLink,

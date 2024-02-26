@@ -1,0 +1,11 @@
+.grid{
+    margin: 70px;
+    height:30%;
+    width:40%;
+    text-align: center;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-style: oblique;
+}
