@@ -13,7 +13,6 @@ import Contacts from './pages/contacts';
 import Events from "./pages/events";
 import Sponsors from "./pages/sponsors";
 import Teams from "./pages/team";
-import SignUp from "./pages/signup";
 import Tame from "./pages/tame";
 function App() {
 	return (
@@ -33,10 +32,6 @@ function App() {
 				/>
 				<Route path="/team" element={<Teams />} />
 				<Route path="/contacts" element={<Contacts />} />
-				<Route
-					path="/sign-up"
-					element={<SignUp />}
-				/>
 				<Route
 					path="/tame"
 					element={<Tame />}

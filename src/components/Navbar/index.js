@@ -1,15 +1,15 @@
 // components/Navbar/index.js
 import './index.css';
 import React from "react";
+import { CDropdown,CDropdownToggle, CDropdownItem,CDropdownMenu} from '@coreui/react';
 import pb from './logo.gif';
 import tame from './tame.png';
+import '@coreui/coreui/dist/css/coreui.min.css';
 import {
 	Nav,
 	NavLink,
 	Bars,
-	NavMenu,
-	NavBtn,
-	NavBtnLink,
+	NavMenu
 } from "./NavbarElements";
 
 const Navbar = () => {
@@ -36,11 +36,16 @@ const Navbar = () => {
 					<NavLink to="/contacts" activeStyle>
 						Contact Us
 					</NavLink>
-					<NavBtn>
-						<NavBtnLink to='/sign-up'>
-							Sign Up
-						</NavBtnLink>
-					</NavBtn>
+					<CDropdown>
+					<link rel="preconnect" href="https://fonts.googleapis.com"/>
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+					<link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet"/>
+						<CDropdownToggle color='warning' style={{fontFamily:'Kode Mono', fontSize:'17.5px', color:'black'}}>Sign Up</CDropdownToggle>
+						<CDropdownMenu>
+							<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSc3zESJSABkjQszE6G8kbf_zU1ZAP3-ZV_A-nSoDFLprFsrmw/viewform">Events</CDropdownItem>
+							<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSfCRjvelgLIWtuww32OcJlopjmBNhnEYzbjpHLbzzFO212CXA/viewform">Workshops</CDropdownItem>
+						</CDropdownMenu>
+					</CDropdown>
 					<NavLink to="/tame">
 						<img src={tame} alt='tame' height='85px'/>
 					</NavLink>
