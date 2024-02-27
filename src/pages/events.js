@@ -34,8 +34,8 @@ const Events = () => {
 						<li>Line Follower racing</li>
 						<li>Robo Soccer</li>
 						<li>F1 Quiz</li>
-						</div>
-						</ol>
+						</div>	
+						</ol>	
 						</CCardText>
 					</CCardImageOverlay>
 					</CCard>
