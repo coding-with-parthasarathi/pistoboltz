@@ -2,6 +2,7 @@ import React from 'react';
 import { CRow,CCol,CCard,CCardImage,CCardBody,CCardTitle,CCardText} from '@coreui/react';
 import './neon.css';
 import './about.css';
+import demonImage from '../assets/demon.jpg';
 import '@coreui/coreui/dist/css/coreui.min.css';
 const About = () => {
 	return (
@@ -47,7 +48,7 @@ const About = () => {
 					</CCardBody>
 					</CCol>
 					<CCol md={4}>
-					<CCardImage src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyhPixQplPcBf6Y8YpuApsK5-OoxPj_IFCNQ&usqp=CAU'} height={310}/>
+					<CCardImage src={demonImage} height={310}/>
 					</CCol>
   				</CRow>
 			</CCard>
