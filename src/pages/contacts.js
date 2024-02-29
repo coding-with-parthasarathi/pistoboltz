@@ -2,6 +2,7 @@ import React from 'react';
 import './neon.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Center } from '@chakra-ui/react';
 
 const MapEmbed = () => {
   return (
@@ -21,7 +22,7 @@ const MapEmbed = () => {
 
 const Contacts = () => {
   const handleEmailLinkClick = () => {
-    window.location.href = 'mailto:placement@iitm.ac.in'; // Replace with the desired email address
+    window.location.href = 'mailto:tame4918@gmail.com'; // Replace with the desired email address
   };
 
   return (
@@ -33,12 +34,12 @@ const Contacts = () => {
         alignItems: "center"
       }}
     >
-      <div className="logo"><b><span>CONTACT</span><span> US</span></b></div>
+      <div className="logo"><b><span>Contact</span><span> Us</span></b></div>
       <div className="container">
         <div className="row info-map-boxes pb-0">
           {/* Left Info Map Box */}
           <div className="col-md-6 col-sm-12">
-            <div className="info-map-boxes-item fa fa-globe" style={{  backgroundColor: '#DFCFBE', color: '#9B2335',textAlign:'center',borderRadius:'20px',height:'90%',width:'80%',padding:'10px' }}>
+            <div className="info-map-boxes-item fa fa-globe" style={{  backgroundColor: '#DFCFBE', color: '#9B2335',textAlign:'center',borderRadius:'20px',height:'90%',width:'80%',padding:'10px', float:'left' }}>
               <h1>Address</h1>
               <p>
                 MIT ROAD, RADHA NAGAR, <br/>
@@ -49,11 +50,11 @@ const Contacts = () => {
           </div>
           {/* Right Info Map Box */}
           <div className="col-md-6 col-sm-12" >
-            <div className="info-map-boxes-item fa fa-phone" style={{backgroundColor: '#DFCFBE', color: '#9B2335',textAlign:'center',borderRadius:'20px',height:'90%',width:'80%', padding:'10px'}}>
-              <h1>CONTACT DETAILS</h1>
+            <div className="info-map-boxes-item fa fa-phone" style={{backgroundColor: '#DFCFBE', color: '#9B2335',textAlign:'center',borderRadius:'20px',height:'90%',width:'80%', padding:'10px', float:'right'}}>
+              <h1>Contact Details</h1>
               <p>
                 PHONE : 044 00000  <br/>
-                <a href="mailto:Tame4918@gmail.com" onClick={handleEmailLinkClick}>Tame4918@gmail.com</a><br/>
+                <a href="mailto:tame4918@gmail.com" onClick={handleEmailLinkClick}>tame4918@gmail.com</a><br/>
 				        REACH US : <a href="https://www.instagram.com/pistoboltz_mit/">  <FontAwesomeIcon icon={faInstagram} size="lg" /> </a>
               </p>
             </div>

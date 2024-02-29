@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');
-.about, .events, .team, .sponsors,.contacts, .signup, .tame{
+.about, .events, .sponsors,.contacts, .signup, .tame{
     background: url("https://wallpapers-hub.art/wallpaper-images/13322.jpg");
     background-size:cover;
     background-position: center;
     height:100%;
+}
+.team{
+  background: url("https://wallpapers-hub.art/wallpaper-images/13322.jpg");
+  background-size:cover;
+  background-position: center;
+  height:87.95vh;
 }
 .logo {
     text-align: center;

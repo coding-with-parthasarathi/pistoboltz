@@ -19,7 +19,7 @@ export const NavLink = styled(Link)`
 	display: flex;
 	align-items: center;
 	text-decoration: none;
-	width: max-content;
+	width:max-content;
 	padding: 0 3rem;
 	height: 25%;
 	@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400&display=swap');
