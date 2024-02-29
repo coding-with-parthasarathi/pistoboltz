@@ -21,6 +21,7 @@ import sabari from '../assets/sabari.png';
 import kamesh from '../assets/kamesh.png';
 import lakshmi from '../assets/Lakshmi.png';
 import vignesh from '../assets/vignesh.png';
+import { Link } from "@react-email/link";
 const Teams = () => {
 	return (
 		<div className="team"
@@ -42,7 +43,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/agastheeswar/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>AGASTHEESWAR B</CCardTitle>
 							<CCardText>CHAIRMAN</CCardText>
-							agastheeswaredu@gmail.com
+							<Link href="mailto:agastheeswaredu@gmail.com">agastheeswaredu@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -52,7 +53,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/pranav-dharshan-570856238/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>PRANAV DHARSHAN B</CCardTitle>
 							<CCardText>VICE CHAIRMAN</CCardText>
-							pranavdharshan.b@gmail.com
+							<Link href="mailto:pranavdharshan.b@gmail.com">pranavdharshan.b@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -62,7 +63,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/balaji-k-9220a7206/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>BALAJI K</CCardTitle>
 							<CCardText>TREASURER</CCardText>
-							balaji.k.s55556@gmail.com
+							<Link href="mailto:balaji.k.s55556@gmail.com">balaji.k.s55556@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -78,7 +79,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/tharunr1102/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>THARUN R</CCardTitle>
 							<CCardText>PROGRAM SECRETARY</CCardText>
-							tharunjheri1102@gmail.com
+							<Link href="mailto:tharunjheri1102@gmail.com">tharunjheri1102@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -88,7 +89,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/arvindxyogesh/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>ARVIND YOGESH S</CCardTitle>
 							<CCardText>SPONSOR HEAD</CCardText>
-							sayesh03@gmail.com
+							<Link href="mailto:sayesh03@gmail.com">sayesh03@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -98,7 +99,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle>ASHIK ROSHAN S</CCardTitle>
 							<CCardText>EVENT COORDINATOR</CCardText>
-							sashikroshan2003@gmail.com
+							<Link href="mailto:sashikroshan2003@gmail.com">sashikroshan2003@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -114,7 +115,7 @@ const Teams = () => {
 						<CCardBody>
 						<CCardTitle><a href="https://www.linkedin.com/in/dharsan-r-92b74524b/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>DHARSAN R</CCardTitle>
 							<CCardText>EVENT COORDINATOR</CCardText>
-							dharsan2211@gmail.com
+							<Link href="mailto:dharsan2211@gmail.com">dharsan2211@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -124,7 +125,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle>THARUN KRISHNA S</CCardTitle>
 							<CCardText>EVENT COORDINATOR</CCardText>
-							tharunkrishna79@gmail.com
+							<Link href="mailto:tharunkrishna79@gmail.com">tharunkrishna79@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -134,7 +135,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/akash-suresh-82a920247/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>AKASH S</CCardTitle>
 							<CCardText>EVENT COORDINATOR</CCardText>
-							akashsuresh1976@gmail.com
+							<Link href="mailto:akashsuresh1976@gmail.com">akashsuresh1976@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -150,7 +151,7 @@ const Teams = () => {
 						<CCardBody>
 						<CCardTitle><a href="https://www.linkedin.com/in/sabari-vivek-kumar-79b81423a/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>S SABARI VIVEK KUMAR</CCardTitle>
 							<CCardText>EVENT COORDINATOR</CCardText>
-							sabarivivekkumar69@gmail.com
+							<Link href="mailto:sabarivivekkumar69@gmail.com">sabarivivekkumar69@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -160,7 +161,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/kamesh-arivalagan-5a8717231/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>KAMESH A</CCardTitle>
 							<CCardText>EVENT COORDINATOR</CCardText>
-							kameshari2002@gmail.com
+							<Link href="mailto:kameshari2002@gmail.com">kameshari2002@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -170,7 +171,7 @@ const Teams = () => {
 						<CCardBody>
 							<CCardTitle><a href="https://www.linkedin.com/in/lakshmi-sree-harini-s-3442ab262/" target='_blank' rel='noreferrer'>  <FontAwesomeIcon icon={faLinkedin} size="lg" /> </a>LAKSHMI SREE HARINI S</CCardTitle>
 							<CCardText>GENERAL SECRETARY</CCardText>
-							sree23.pv@gmail.com
+							<Link href="mailto:sree23.pv@gmail.com">sree23.pv@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
@@ -186,7 +187,7 @@ const Teams = () => {
 						<CCardBody>
 						<CCardTitle>VIGNESWARAN S</CCardTitle>
 							<CCardText>ASSISTANT EVENT COORDINATOR</CCardText>
-							mailforvignesh10@gmail.com
+							<Link href="mailto:mailforvignesh10@gmail.com">mailforvignesh10@gmail.com</Link>
 						</CCardBody>
 						</CCard>
 					</CCol>
