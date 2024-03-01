@@ -2,7 +2,7 @@ import React from 'react';
 import './neon.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { Center } from '@chakra-ui/react';
+//import { Center } from '@chakra-ui/react';
 
 const MapEmbed = () => {
   return (
