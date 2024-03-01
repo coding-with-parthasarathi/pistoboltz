@@ -1,12 +1,13 @@
-// pages/events.js
-import { CRow,CCol,CCard,CCardImage,CCardText,CCardTitle, CCardImageOverlay} from '@coreui/react';
+// events.js
+import React from "react";
+import { CRow, CCol, CCard, CCardImage, CCardText, CCardTitle, CCardImageOverlay } from '@coreui/react';
 import './neon.css';
 import './events.css';
 import '@coreui/coreui/dist/css/coreui.min.css';
-import React from "react";
+
 const Events = () => {
-	return (
-		<div className='events'
+    return (
+        <div className='events'
 			style={{
 				display: "flex",
 				flexDirection: "column",
@@ -34,9 +35,9 @@ const Events = () => {
 						<li>Line Follower racing</li>
 						<li>Robo Soccer</li>
 						<li>F1 Quiz</li>
-						</div>	
-						</ol>	
-						</CCardText>
+                        </div>
+                        </ol>
+                        </CCardText>
 					</CCardImageOverlay>
 					</CCard>
 				</CCol>
@@ -62,7 +63,7 @@ const Events = () => {
 					</CCard>
 				</CCol>
 				<CCol xs className='grid'>
-					<CCard>
+                    <CCard>
 					<CCardImage orientation="top" src={'https://images.thequint.com/thequint%2F2020-02%2Fbe7cd804-b429-474e-8236-87cbb816b98b%2FMaruti_Futuro_e.jpg'} />
 					<CCardImageOverlay>
 						<CCardTitle className='title'>Auto Expo</CCardTitle>
@@ -78,5 +79,4 @@ const Events = () => {
 		</div>
 	);
 };
-
 export default Events;
