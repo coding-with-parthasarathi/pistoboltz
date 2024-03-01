@@ -54,8 +54,8 @@ const Events = () => {
 						<li>Go Kart</li>
 						</div>	
 						<div className='list2'>
-						<li>Robo Studio</li>
-						<li>Robotic Jogging/Welding</li>
+						<li>Robo Studio & <br/>Robotic Jogging/Welding</li>
+						<li>Industrial Automation <br/>using PLC</li>
 						</div>
 						</ol>
 						</CCardText>
