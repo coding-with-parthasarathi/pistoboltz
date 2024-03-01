@@ -1,4 +1,4 @@
-// pages/index.js
+//background-image: url('https://i.makeagif.com/media/9-18-2018/RySj_U.gif');
 import React, { Component } from "react";
 import Countdown from "./countdown.js";
 import './index.css';
@@ -25,7 +25,7 @@ class Home extends Component {
      <p></p>
 	 <div className='Blazing'>PISTOBOLTZ'24</div>
                 <h3 className="title">
-          <i>Starts in</i>
+          <i style={{color:'gold'}}>Starts in</i>
         </h3>
         <Countdown date={`${year}-03-16T10:00:00`} />
       </div>
