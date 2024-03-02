@@ -4,7 +4,6 @@ import { CRow, CCol, CCard, CCardImage, CCardText, CCardTitle, CCardImageOverlay
 import './neon.css';
 import './events.css';
 import '@coreui/coreui/dist/css/coreui.min.css';
-
 const Events = () => {
     return (
         <div className='events'
@@ -25,16 +24,16 @@ const Events = () => {
 						<CCardText>
 						<ol>
 						<div className='list'>
-						<li>Mech Connection</li>
-						<li>Design Master</li>
-						<li>Business Plan</li>
-						<li>TAME Shark Tank</li>
+						<li><a href="#">Mech Connection</a></li>
+						<li><a href="#">Design Master</a></li>
+						<li><a href="#">Business Plan</a></li>
+						<li><a href="#">TAME Shark Tank</a></li>
 						</div>	
 						<div className='list2'>
-						<li>Paper Presentation</li>
-						<li>Line Follower racing</li>
-						<li>Robo Soccer</li>
-						<li>F1 Quiz</li>
+						<li><a href="#">Paper Presentation</a></li>
+						<li><a href="#">Line Follower racing</a></li>
+						<li><a href="#">Robo Soccer</a></li>
+						<li><a href="#">F1 Quiz</a></li>
                         </div>
                         </ol>
                         </CCardText>
@@ -49,13 +48,13 @@ const Events = () => {
 						<CCardText>
 						<ol>
 						<div className='list'>
-						<li>EPC Project Design</li>
-						<li>Rapid Prototyping</li>
-						<li>Go Kart</li>
+						<li><a href="https://drive.google.com/file/d/11rrXsDpJ75xcQRytfl6hzJPJKmoO1q5R/view?usp=sharing">EPC Project Design</a></li>
+						<li><a href="#">Rapid Prototyping</a></li>
+						<li><a href="https://drive.google.com/file/d/1TxqVaFG4OaL3zjinYHItZ46q0BqWZVFY/view?usp=sharing">Go Kart</a></li>
 						</div>	
 						<div className='list2'>
-						<li>Robo Studio & <br/>Robotic Jogging/Welding</li>
-						<li>Industrial Automation <br/>using PLC</li>
+						<li><a href="https://drive.google.com/file/d/1fxuH0BTHrJd_bkUL_Hpxd-Yza0vGunlZ/view?usp=sharing">Robo Studio & <br/>Robotic Jogging/Welding</a></li>
+						<li><a href="#">Industrial Automation <br/>using PLC</a></li>
 						</div>
 						</ol>
 						</CCardText>

@@ -12,8 +12,8 @@
 .list, .list2{
     display: flex;
     flex-direction: column;
-    color: gold;
     font-size: larger;
+    color: gold;
 }
 .list{
     float: left;
@@ -22,4 +22,15 @@
 .list2{
     float:right;
     padding-right:10%;
+}
+a{
+    color:gold;
+}
+a:hover {
+    transition: all 0.2s ease-in-out;
+    color: cyan;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
